@@ -40,7 +40,7 @@ font-weight:bold;
 
 .hero{
 height:60vh;
-background:url("landscape.jpg") center/cover no-repeat;
+background:url("Thaddeus Job.JPG") center/cover no-repeat;
 display:flex;
 align-items:center;
 justify-content:center;
@@ -130,4 +130,5 @@ text-align:center;
 padding:20px;
 background:#1b5e20;
 color:white;
+
 }
