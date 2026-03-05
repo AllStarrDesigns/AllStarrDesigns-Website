@@ -1,7 +1,7 @@
 .header{
   display: flex;
   justify-content: space-between;
-  align-items: cente;
+  align-items: center;
   bacground: #2e7d32;
   padding: 15px 40px;
 font-family:Arial, sans-serif;
@@ -137,6 +137,7 @@ background:#1b5e20;
 color:white;
 
 }
+
 
 
 
