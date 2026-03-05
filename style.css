@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  bacground: #2e7d32;
+  background: #2e7d32;
   padding: 15px 40px;
 font-family:Arial, sans-serif;
 }
@@ -29,7 +29,7 @@ list-style:none;
 }
 
 .nav-links li{
-margin-left:20px;
+margin-right:20px;
 }
 
 .nav-links a{
@@ -137,6 +137,7 @@ background:#1b5e20;
 color:white;
 
 }
+
 
 
 
