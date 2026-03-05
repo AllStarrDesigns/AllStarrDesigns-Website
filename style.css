@@ -40,7 +40,6 @@ font-weight:bold;
 
 .hero{
 height:60vh;
-  padding: 100px;
 background-image: url("sod/dirtbg.png");
   background-size: cover;
   background-position: center;
@@ -135,6 +134,7 @@ background:#1b5e20;
 color:white;
 
 }
+
 
 
 
