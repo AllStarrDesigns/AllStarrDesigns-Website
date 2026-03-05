@@ -40,7 +40,7 @@ font-weight:bold;
 
 .hero{
 height:60vh;
-background-image: url("etcimages/Thaddeus-Job.JPG");
+background-image: url("sod/dirtbg.png");
   background-size: cover;
   background-position: center;
 display:flex;
@@ -134,6 +134,7 @@ background:#1b5e20;
 color:white;
 
 }
+
 
 
 
