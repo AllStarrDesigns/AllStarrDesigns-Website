@@ -12,7 +12,7 @@ body{
 /* NAVBAR */
 
 .navbar{
-display:flex;
+display:block;
 justify-content:space-between;
 align-items:center;
 background:#2e7d32;
@@ -42,7 +42,7 @@ height:60vh;
 background-image: url("sod/dirtbg.png");
   background-size: cover;
   background-position: center;
-display:flex;
+display:block;
 align-items:bottom;
 justify-content:center;
 text-align:center;
@@ -137,6 +137,7 @@ background:#1b5e20;
 color:white;
 
 }
+
 
 
 
