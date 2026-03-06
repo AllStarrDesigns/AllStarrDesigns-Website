@@ -1,8 +1,8 @@
 *{
-  margin: 0;
-  padding: 15px 40px;
-  box-sizing: border-box;
-font-family:Arial, sans-serif;
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, sans-serif;
 }
 body{
   background: #f5f5f5;
@@ -12,7 +12,7 @@ body{
 /* NAVBAR */
 
 .navbar{
-display:block;
+display:flex;
 justify-content:space-between;
 align-items:center;
 background:#2e7d32;
@@ -40,11 +40,13 @@ font-weight:bold;
 .hero{
 height:60vh;
 background-image: url("sod/dirtbg.png");
-  background-size: cover;
-  background-position: center;
-display:block;
-align-items:bottom;
+background-size: cover;
+background-position: center;
+
+display:flex;
+align-items:flex-end;
 justify-content:center;
+
 text-align:center;
 color:white;
 }
@@ -137,6 +139,7 @@ background:#1b5e20;
 color:white;
 
 }
+
 
 
 
