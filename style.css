@@ -55,13 +55,16 @@ padding:30px;
 border-radius:10px;
 }
 
-.hero button{
+.quote-btn{
 margin-top:15px;
 padding:10px 20px;
 border:none;
-background:#81c784;
+background:#2e7d32;
 font-size:16px;
 cursor:pointer;
+}
+.quote-btn:hover{
+  background: #1b5e20
 }
 
 /* SERVICES */
@@ -134,6 +137,7 @@ background:#1b5e20;
 color:white;
 
 }
+
 
 
 
