@@ -1,10 +1,12 @@
 *{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #2e7d32;
+  margin: 0;
   padding: 15px 40px;
+  box-sizong: border-box;
 font-family:Arial, sans-serif;
+}
+body{
+  background: #f5f5f5;
+  color:#333;
 }
 
 /* NAVBAR */
@@ -132,6 +134,7 @@ background:#1b5e20;
 color:white;
 
 }
+
 
 
 
