@@ -89,7 +89,7 @@ margin-top:30px;
 }
 
 .service-card img{
-   width:100%;
+   width:20%;
   height:160px;
   object-fit:cover;
   margin-bottom:10px;
@@ -146,6 +146,7 @@ background:#1b5e20;
 color:white;
 
 }
+
 
 
 
