@@ -43,7 +43,7 @@ font-weight:bold;
 /* HERO */
 
 .hero{
-height:80vh;
+height:90vh;
   background:linear-gradient(rgba(0,0,0.45), rgba(0,0,0.45)), url("more/frontpagebg.jpg");
 background-image: url("more/frontpagebg.jpg");
 background-size: cover;
@@ -156,6 +156,7 @@ background:#1b5e20;
 color:white;
 
 }
+
 
 
 
