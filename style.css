@@ -80,6 +80,12 @@ cursor:pointer;
 
 /* SERVICES */
 
+.service-card{
+display:block;
+text-decoration:none;
+color:inherit;
+}
+
 .section-title{
 background: #2e7d32;
 padding:10px 20px;
@@ -156,6 +162,7 @@ background:#1b5e20;
 color:white;
 
 }
+
 
 
 
