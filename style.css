@@ -258,7 +258,7 @@ color:white;
 
 }
 
-// Quote Page
+/* Quote Page */
 
 .quote-hero{
 background:linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("more/heathrow.jpg");
@@ -359,6 +359,7 @@ color:#1b5e20;
     padding:14px 26px;
   }
 }
+
 
 
 
