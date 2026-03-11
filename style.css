@@ -4,9 +4,15 @@
   box-sizing:border-box;
   font-family:Arial, sans-serif;
 }
+
 body{
   background: #81c78470;
   color:#000001;
+}
+
+h1, h2{
+font-family: Georgia, serif;
+font-style: italic;
 }
 
 /* NAVBAR */
@@ -181,6 +187,7 @@ background:#1b5e20;
 color:white;
 
 }
+
 
 
 
