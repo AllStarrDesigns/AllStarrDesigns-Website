@@ -48,6 +48,10 @@ font-weight:bold;
 
 /* HERO */
 
+h2{
+  margin-bottom:20px;
+}
+
 .hero{
 height:90vh;
   background:linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("more/frontpagebg.jpg");
@@ -87,6 +91,10 @@ cursor:pointer;
 }
 
 /* SERVICES */
+
+h3{
+  margin-bottom:20px;
+}
 
 .service-card{
 display:block;
@@ -249,6 +257,7 @@ background:#1b5e20;
 color:white;
 
 }
+
 
 
 
