@@ -320,7 +320,7 @@ padding:40px 20px;
   max-width:900px;
   margin:60px auto;
   padding:40px;
-  background:white;
+  background:rgba(255,255,255,0.95);
   border-radius:10px;
   box-shadow:0 5px 15px rgba(0,0,0,0.1);
   text-align:center;
@@ -377,6 +377,7 @@ margin-right:auto;
     font-size:18px;
     padding:14px 26px;
   }
+
 
 
 
