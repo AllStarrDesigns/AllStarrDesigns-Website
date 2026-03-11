@@ -258,6 +258,42 @@ color:white;
 
 }
 
+/* CONTACT PAGE */
+
+.contact{
+padding:80px 40px;
+text-align:center;
+}
+
+.contact-form{
+max-width:500px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+.contact-form input,
+.contact-form textarea{
+padding:12px;
+border-radius:5px;
+border:1px solid #ccc;
+font-size:16px;
+}
+
+.contact-form textarea{
+height:120px;
+resize:none;
+}
+
+.contact-form button{
+padding:12px;
+background:#2e7d32;
+color:white;
+border:none;
+cursor:pointer;
+}
+
 @media (max-width:768px){
 
   .hero-text{
@@ -277,6 +313,7 @@ color:white;
     font-size:18px;
     padding:14px 26px;
   }
+
 
 
 
