@@ -418,12 +418,30 @@ margin:auto;
 margin-bottom:15px;
 line-height:1.6;
 }
+.about-story{
+border-right:2px solid #2e7d32;
+padding-right:40px;
+}
+
+.about-services{
+padding-left:40px;
+}
 
 
 /* MOBILE */
 
 @media (max-width:768px){
 
+
+.about-story{
+border-right:none;
+padding-right:0;
+}
+
+.about-services{
+padding-left:0;
+}
+  
 .about-content{
 grid-template-columns:1fr;
 }
@@ -451,6 +469,7 @@ padding:14px 26px;
 }
 
 }
+
 
 
 
