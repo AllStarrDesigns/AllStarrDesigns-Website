@@ -117,10 +117,16 @@ margin-top:30px;
 /* GALLERY */
 
 .gallery{
-  
 padding:60px 40px;
 text-align:center;
 background:#2e7d32;
+}
+
+.gallery-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:15px;
+margin-top:30px;
 }
 
 .gallery-grid img{
@@ -130,7 +136,6 @@ object-fit:cover;
 border-radius:6px;
 box-shadow:0 2px 8px rgba(0,0,0,0.45);
 }
-
 .gallery-item{
 width:89%;
 height:300px;
@@ -168,6 +173,7 @@ background:#1b5e20;
 color:white;
 
 }
+
 
 
 
