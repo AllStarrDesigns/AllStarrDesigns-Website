@@ -350,19 +350,19 @@ background:#81c7844f;
 margin-bottom:40px;
 }
 
-.gallery-grid{
+.gallery .gallery-grid{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
 gap:20px;
 }
 
-.gallery-item{
+.gallery .gallery-item{
 position:relative;
 overflow:hidden;
 border-radius:8px;
 }
 
-.gallery-item img{
+.gallery .gallery-item img{
 width:100%;
 height:280px;
 object-fit:cover;
@@ -370,10 +370,9 @@ display:block;
 transition:0.3s;
 }
 
-.gallery-item:hover img{
+.gallery .gallery-item:hover img{
 transform:scale(1.08);
 }
-
 /* overlay */
 
 .gallery-overlay{
@@ -502,6 +501,7 @@ height:50vh;
     padding:14px 26px;
   }
 }
+
 
 
 
