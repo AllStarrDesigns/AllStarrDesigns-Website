@@ -260,46 +260,62 @@ color:white;
 
 /* CONTACT PAGE */
 
-.contact-section{
-max-width:900px;
-margin:0px auto;
-padding:40px;
-background:white;
-border-radius:10px;
-box-shadow:0 5px 15px rgba(0,0,0,0.1);
-text-align:center;
+.contact-hero{
+background:linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("more/heathrow.jpg");
+background-size:cover;
+background-position:center;
+min-height:90vh;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+padding:40px 20px;
 }
 
+.contact-section{
+  max-width:900px;
+ margin:0 auto;
+transform: translateY(60px);
+  padding:40px;
+  background:rgba(255,255,255,0.95);
+  border-radius:10px;
+  box-shadow:0 15px 40px rgba(0,0,0,0.25);
+  text-align:center;
+}
 .contact-form input,
 .contact-form textarea{
-padding:12px;
+padding:6px;
 font-size:16px;
 border:1px solid #ccc;
 border-radius:5px;
-width:100%;
-}
+width:50%;
 
+margin-top:10px;
+display:block;
+margin-left:auto;
+margin-right:auto;
+}
 .contact-form textarea{
-min-height:120px;
-resize:vertical;
+  min-height:120px; resize:vertical;
 }
 .contact-form button{
-background:#2e7d32;
-color:white;
-border:none;
-padding:14px;
-font-size:16px;
-border-radius:5px;
-cursor:pointer;
-transition:0.3s;
+  background:#2e7d32;
+  color:white;
+  border:none;
+  padding:14px;
+  font-size:16px;
+  border-radius:5px;
+  cursor:pointer;
+  transition:0.3s;
 }
-
 .contact-form button:hover{
-background:#1b5e20;
+  background:#1b5e20;
 }
 .contact-section h2{
-margin-bottom:25px;
+  margin-bottom:25px;
 }
+
 
 // Quote Page
 
@@ -379,6 +395,7 @@ margin-right:auto;
     padding:14px 26px;
   }
 }
+
 
 
 
