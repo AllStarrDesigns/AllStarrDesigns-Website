@@ -258,6 +258,27 @@ color:white;
 
 }
 
+@media (max-width:768px){
+
+  .hero-text{
+    width:90%;
+    padding:25px;
+  }
+
+  .hero-text h1{
+    font-size:32px;
+  }
+
+  .hero-text p{
+    font-size:16px;
+  }
+
+  .hero-text button{
+    font-size:18px;
+    padding:14px 26px;
+  }
+
+
 
 
 
