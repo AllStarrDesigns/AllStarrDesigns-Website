@@ -262,7 +262,7 @@ color:white;
 
 .contact-section{
 max-width:900px;
-margin:60px auto;
+margin:0px auto;
 padding:40px;
 background:white;
 border-radius:10px;
@@ -379,6 +379,7 @@ margin-right:auto;
     padding:14px 26px;
   }
 }
+
 
 
 
