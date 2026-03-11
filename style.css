@@ -318,11 +318,12 @@ padding:40px 20px;
 
 .quote-section{
   max-width:900px;
-  margin:60px auto;
+ margin:0 auto;
+transform: translateY(60px);
   padding:40px;
   background:rgba(255,255,255,0.95);
   border-radius:10px;
-  box-shadow:0 5px 15px rgba(0,0,0,0.1);
+  box-shadow:0 15px 40px rgba(0,0,0,0.25);
   text-align:center;
 }
 .quote-form input,
@@ -377,6 +378,7 @@ margin-right:auto;
     font-size:18px;
     padding:14px 26px;
   }
+
 
 
 
