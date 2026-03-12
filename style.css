@@ -65,7 +65,7 @@ margin-bottom:20px;
 
 .hero{
 height:90vh;
-background:linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)), url("more/frontpagebg.jpg");
+background:linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.45)), url("more/frontpagebg.jpg");
 background-size:cover;
 background-position:center;
 
@@ -140,7 +140,7 @@ position:absolute;
 inset:2px;
 background:#4CAF50;
 border-radius:inherit;
-z-index:0;
+z-index:-1;
 }
 
 @keyframes spin{
@@ -295,8 +295,8 @@ color:#000001;
 footer{
 text-align:center;
 padding:20px;
-background:#1b5e20;
-color:white;
+background:#2e7d32;
+color:#000001;
 }
 
 
