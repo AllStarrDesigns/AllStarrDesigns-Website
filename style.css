@@ -95,6 +95,10 @@ background:#4CAF50;
 font-size:16px;
 cursor:pointer;
 transition:all .3s ease;
+position:relative;
+overflow:hidden;
+z-index:0;
+border-radius:6px;
 }
 
 .quote-btn:hover,
@@ -102,46 +106,41 @@ transition:all .3s ease;
 transform:translateY(-5px);
 box-shadow:0 8px 15px rgba(0,0,0,0.3);
 }
-.glow-btn{
-  position:relative;
-  padding:14px 30px;
-  background:#2e7d32;
-  color:white;
-  border:none;
-  border-radius:8px;
-  font-size:16px;
-  cursor:pointer;
-  overflow:hidden;
+
+/* COMET BORDER */
+
+.quote-btn::before{
+content:"";
+position:absolute;
+top:-50%;
+left:-50%;
+width:200%;
+height:200%;
+background:conic-gradient(
+transparent 0deg,
+transparent 320deg,
+#66ff99 340deg,
+transparent 360deg
+);
+animation:spin 3s linear infinite;
+filter:blur(3px);
+z-index:-1;
 }
 
-/* glowing border element */
-.glow-btn::before{
-  content:"";
-  position:absolute;
-  inset:-2px;
-  border-radius:8px;
-  background:linear-gradient(90deg,
-  transparent,
-  #66ff99,
-  transparent);
-  animation:spin 3s linear infinite;
-  filter:blur(6px);
-}
-
-/* keep button above glow */
-.glow-btn span{
-  position:relative;
-  z-index:1;
+.quote-btn::after{
+content:"";
+position:absolute;
+inset:3px;
+background:#4CAF50;
+border-radius:inherit;
+z-index:-1;
 }
 
 @keyframes spin{
-  0%{
-    transform:rotate(0deg);
-  }
-  100%{
-    transform:rotate(360deg);
-  }
+from{transform:rotate(0deg);}
+to{transform:rotate(360deg);}
 }
+
 
 
 /* SERVICES */
@@ -628,6 +627,7 @@ padding:14px 26px;
 }
 
 }
+
 
 
 
