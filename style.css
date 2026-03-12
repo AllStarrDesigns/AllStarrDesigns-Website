@@ -161,47 +161,6 @@ opacity:0;
 }
 }
 
-/* COMET BORDER */
-
-.quote-btn{
-position:relative;
-overflow:hidden;
-z-index:1;
-}
-
-.quote-btn::before{
-content:"";
-position:absolute;
-top:-50%;
-left:-50%;
-width:200%;
-height:800%;
-background:conic-gradient(
-transparent 0deg,
-transparent 320deg,
-#01ff56 340deg,
-transparent 360deg
-);
-animation:spin 4s linear infinite;
-filter:blur(10px);
-z-index:-1;
-}
-
-.quote-btn::after{
-content:"";
-position:absolute;
-inset:2px;
-background:#4CAF50;
-border-radius:inherit;
-z-index:-1;
-}
-
-@keyframes spin{
-from{transform:rotate(0deg);}
-to{transform:rotate(360deg);}
-}
-
-
 /* SERVICES */
 
 h3{
@@ -686,6 +645,7 @@ padding:14px 26px;
 }
 
 }
+
 
 
 
