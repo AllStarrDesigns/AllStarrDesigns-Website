@@ -99,7 +99,11 @@ transition:all .3s ease;
 position:relative;
 overflow:hidden;
 border-radius:6px;
+display:inline-block;
+text-decoration:none;
 }
+
+/* Hover effect */
 
 .quote-btn:hover,
 .cta-btn:hover{
@@ -107,13 +111,17 @@ transform:translateY(-5px);
 box-shadow:0 8px 15px rgba(0,0,0,0.3);
 }
 
-/* COMET BORDER */
+
+/* =========================
+   COMET BORDER
+========================= */
 
 .quote-btn{
 position:relative;
-overflow:hidden;   /* keeps the glow inside */
 z-index:1;
 }
+
+/* spinning comet */
 
 .quote-btn::before{
 content:"";
@@ -126,21 +134,16 @@ height:300%;
 background:conic-gradient(
 transparent 0deg,
 transparent 320deg,
-#01ff56 340deg,
+#00ff88 340deg,
 transparent 360deg
 );
 
 animation:spin 4s linear infinite;
 filter:blur(6px);
-
-/* this prevents the glow from flooding the page */
-mask:linear-gradient(#000 0 0) content-box,
-linear-gradient(#000 0 0);
-mask-composite:exclude;
-
-padding:2px;
-border-radius:inherit;
+z-index:-2;
 }
+
+/* button fill */
 
 .quote-btn::after{
 content:"";
@@ -151,15 +154,18 @@ border-radius:inherit;
 z-index:-1;
 }
 
+
+/* spin animation */
+
 @keyframes spin{
 from{transform:rotate(0deg);}
 to{transform:rotate(360deg);}
-} 
-
 }
 
 
-/* SPARKLE STARS */
+/* =========================
+   SPARKLE STARS
+========================= */
 
 .star{
 position:absolute;
@@ -167,7 +173,7 @@ width:10px;
 height:10px;
 background:white;
 opacity:0;
-z-index:10;
+z-index:2;
 pointer-events:none;
 
 clip-path:polygon(
@@ -184,10 +190,13 @@ clip-path:polygon(
 );
 }
 
+/* sparkle animation trigger */
+
 .quote-btn:hover .star{
 animation:sparkle .8s linear infinite;
 opacity:1;
 }
+
 
 /* star positions */
 
@@ -196,13 +205,16 @@ opacity:1;
 .star3{ top:75%; left:30%; }
 .star4{ top:25%; left:60%; }
 
+
+/* sparkle animation */
+
 @keyframes sparkle{
 0%{
 transform:scale(0);
 opacity:0;
 }
 50%{
-transform:scale(1.5);
+transform:scale(1.4);
 opacity:1;
 }
 100%{
