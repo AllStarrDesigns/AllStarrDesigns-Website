@@ -193,7 +193,7 @@ clip-path:polygon(
 /* sparkle animation trigger */
 
 .quote-btn:hover .star{
-animation:sparkle .8s linear infinite;
+animation:sparkle 1.8s linear infinite;
 opacity:1;
 }
 
