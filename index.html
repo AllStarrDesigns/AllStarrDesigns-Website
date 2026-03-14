@@ -86,6 +86,19 @@ Get Quote
 
 <h2>Recent Projects</h2>
 
+  <script>
+
+const menuToggle = document.querySelector(".menu-toggle");
+const navLinks = document.querySelector(".nav-links");
+
+if(menuToggle && navLinks){
+menuToggle.addEventListener("click", () => {
+navLinks.classList.toggle("active");
+});
+}
+
+</script>
+
 <div class="carousel-wrapper">
 
 <button class="carousel-btn left">&#10094;</button>
