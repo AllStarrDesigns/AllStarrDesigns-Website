@@ -161,66 +161,6 @@ z-index:-1;
 from{transform:rotate(0deg);}
 to{transform:rotate(360deg);}
 }
-
-
-/* =========================
-   SPARKLE STARS
-========================= */
-
-.star{
-position:absolute;
-width:10px;
-height:10px;
-background:white;
-opacity:0;
-z-index:2;
-pointer-events:none;
-
-clip-path:polygon(
-50% 0%,
-61% 35%,
-98% 35%,
-68% 57%,
-79% 91%,
-50% 70%,
-21% 91%,
-32% 57%,
-2% 35%,
-39% 35%
-);
-}
-
-/* sparkle animation trigger */
-
-.quote-btn:hover .star{
-animation:sparkle 1.8s linear infinite;
-opacity:1;
-}
-
-
-/* star positions */
-
-.star1{ top:15%; left:20%; }
-.star2{ top:40%; left:80%; }
-.star3{ top:75%; left:30%; }
-.star4{ top:25%; left:60%; }
-
-
-/* sparkle animation */
-
-@keyframes sparkle{
-0%{
-transform:scale(0);
-opacity:0;
-}
-50%{
-transform:scale(1.4);
-opacity:1;
-}
-100%{
-transform:scale(0);
-opacity:0;
-}
 }
 
 
