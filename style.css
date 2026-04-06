@@ -51,6 +51,17 @@ color:white;
 margin-left:auto;
 }
 
+.logo {
+display:flex;
+align-items:center;
+margin-right:20px; /* pushes everything else away from it */
+}
+
+.logo img {
+height:50px; /* adjust size */
+width:auto;
+display:block;
+}
 
 /* HERO */
 
