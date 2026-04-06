@@ -20,11 +20,6 @@ font-weight:bold;
 
 /* NAVBAR */
 
-.logo{
-height:50px;
-margin-right:20px;
-}
-
 .navbar{
 display:flex;
 justify-content:space-between;
@@ -81,6 +76,17 @@ background:rgba(0,0,0,0.78);
 padding:40px;
 border-radius:10px;
 margin:0 190px 50px 190px;
+}
+
+.hero-logo {
+   display: block;
+   margin: 0 auto 15px auto;
+   max-width: 120px; /* adjust size */
+   margin-bottom: 10px;
+}
+
+.hero-content {
+   text-align: center;
 }
 
 
