@@ -51,19 +51,13 @@ color:white;
 margin-left:auto;
 }
 
-/* NAVBAR LOGO */
 .nav-logo {
 height:50px;
 width:auto;
 margin-right:20px;
+display:block;
 
-/* 🔥 circle effect */
-background:#000000; /* or #0D0D0D for your theme */
-padding:8px;
-border-radius:50%;
-
-/* shadow */
-box-shadow:0 4px 12px rgba(0,0,0,0.4);
+filter: drop-shadow(0 0 10px rgba(0,0,0,0.6));
 }
 
 /* HERO LOGO (homepage big one) */
