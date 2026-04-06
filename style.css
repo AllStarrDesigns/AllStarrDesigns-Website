@@ -51,18 +51,19 @@ color:white;
 margin-left:auto;
 }
 
-.logo {
-display:flex;
-align-items:center;
-margin-right:20px; /* pushes everything else away from it */
-}
-
-.logo img {
-height:50px; /* adjust size */
+/* NAVBAR LOGO */
+.nav-logo {
+height:50px;
 width:auto;
-display:block;
+margin-right:20px;
 }
 
+/* HERO LOGO (homepage big one) */
+.hero-logo {
+max-width:180px;
+width:100%;
+margin-bottom:15px;
+}
 /* HERO */
 
 h2{
@@ -178,7 +179,7 @@ z-index:-1;
 from{transform:rotate(0deg);}
 to{transform:rotate(360deg);}
 }
-}
+
 
 
 /* SERVICES */
