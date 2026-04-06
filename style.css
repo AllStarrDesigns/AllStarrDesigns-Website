@@ -653,8 +653,9 @@ height:50vh;
 }
 
 .hero-text{
-width:90%;
-padding:25px;
+width:95%;          /* wider */
+margin:0 auto 30px; /* centers it properly */
+padding:20px;       /* slightly tighter padding */
 }
 
 .hero-text h1{
